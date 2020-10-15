@@ -1,0 +1,55 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#top, 
+#bottom{
+    position: fixed;
+    height: 50%;
+    left: 0;
+    right: 0;
+
+}
+
+#top{
+    top: 0cm;
+    /* background-color: whitesmoke; */
+    padding-right: 45%;
+    padding-top: 6%;
+    left: 44%;
+}
+
+#top > ul{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#top > ul > li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0288D1;
+}
+
+
+/* bottom: */
+
+#bottom{
+    bottom: 0cm;
+    background-color: #0288D1;
+    /* padding-right: 45%; */
+    padding-top: 6%;
+    /* left: 44%; */
+}
+
+#bottom > ul{
+    margin-right: 42%;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+#bottom > ul > li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+
